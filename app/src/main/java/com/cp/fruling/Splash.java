@@ -41,7 +41,7 @@ public class Splash extends AppCompatActivity {
         //    Glide for loading girls
         ImageView mSea = findViewById(R.id.backView);
         // ImageView mGirl = findViewById(R.id.girl);
-        Glide.with(this).load("https://i0.wp.com/piziadas.com/wp-content/uploads/2013/06/logo_ferrari_animado.gif?resize=300%2C300")
+        Glide.with(this).load("https://ae01.alicdn.com/kf/HTB1Vpt1aTTI8KJjSsphq6AFppXaW/Fotograf-a-de-la-C-mara-foto-de-primavera-para-fondos-de-fotograf-a-fondo-de.jpg_Q90.jpg_.webp")
                 //https://www.acfligue.org/wp-content/uploads/2021/12/custom_showroom_1654840098.png
                 .transition(DrawableTransitionOptions.withCrossFade(1000))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_200)))
